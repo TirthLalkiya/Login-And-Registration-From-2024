@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration From</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="CSS/style1.css" />
+    <script src="JAVASCRIPT/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+          <h1>Registration From</h1>
+          <form method="POST" action="">
+              <div class="txt_field">
+                  <input type="text" id="un" name="UserName">
+                  <span></span>
+                  <label>User Name :-</label>
+              </div>
+              <div class="txt_field">
+                  <input type="email" id="e" name="email" required>
+                  <span></span>
+                  <label>Email :-</label>
+              </div>
+              <div class="txt_field">
+                <input type="phonenumber" id="p" name="phonenumber" required>
+                <span></span>
+                <label>Phone Number :-</label>
+              </div>
+              <div class="txt_field">
+                  <input type="password" id="pd" name="password" required>
+                  <span></span>
+                  <label>Password :-</label>
+              </div>
+              <div class="txt_field">
+                  <input type="password" inputmode="cpd" name="cpassword" required>
+                  <span></span>
+                  <label>Confirm Password :-</label>
+              </div>
+              <input name="submit" type="Submit" onclick="return check()" value="Sign Up">
+              <div class="signup_link">
+                  Have an Account ? <a href="Login.html">Login Here</a>
+              </div>
+          </form>
+      </div>
+  </div>
+  </body>
+</html>
